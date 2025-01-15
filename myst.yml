@@ -1,0 +1,34 @@
+version: 1
+project:
+  title: "My Cool Paper"
+  description: This is going to be the best paper you have ever seen
+  keywords:
+    - keyword 1
+    - keyword 2
+    - keyword 3
+  subject: Research Education
+  authors:
+    - name: Taylor Gibson
+      corresponding: true
+      orcid: 0009-0007-6673-9229
+      affiliation: ncssm
+      email: gibson@ncssm.edu
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Project Administration
+        - Software
+        - Validation
+        - Visualization
+        - writing
+        - editing
+  abbreviations:
+    NMR: Nuclear Magnetic Resonance
+    MAE: Mean Absolute Error
+    GCN: Graph Convolutional Network
+    MLP: Multi-Layer Perceptron
+
+site:
+  template: article-theme
