@@ -4,6 +4,12 @@ abstract: |
   This paper will blow your mind.
 
   Really, you will love it!
+
+availability: |
+  The data that support the findings of this study are openly available in `jterm2025article` at (https://github.com/taylorgibson/jterm2025article).
+
+acknowledgments: |
+  Thank you to my dog Neville for all your support along the way.
 ---
 
 ## Introduction
@@ -21,7 +27,7 @@ Here's the book I used @paar_understanding_2024
 | data 1  | data 2   | data 3   |
 | data 4   | data 5   | data 6   |
 
-
+(@10.1006/bulm.1999.0163)
 
 ```{list-table} Mr. Gibson's Table
 :header-rows: 1
@@ -62,9 +68,15 @@ This past year I took a vacation to a nice beach. See @beach-vacation for an ima
 :label: subfigure-example
 :align: left
 
-![Here is a sunset](images/sunset.png)
+:::{image} images/sunset.png
+:width: 100px
+:alt: test caption
+:::
 
-![Here are some graphs](images/grapes.png)
+:::{image} images/grapes.png
+:width: 100px
+test caption 2
+:::
 
 Look at my cool photos
 ```
